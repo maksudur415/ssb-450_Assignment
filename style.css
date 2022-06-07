@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Arvo:wght@700&family=Dancing+Script:wght@400;500;600;700&family=Freehand&family=Open+Sans&display=swap');
+
+body{
+    margin: 0;
+}
+ .example-1 ,.example-2 ,.example-3{
+    text-align: center;
+    width: 100vw;
+    height: 50vh;
+    border: 2px solid rgb(62, 65, 62);
+    padding: 50px;
+    background: url(images/01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Freehand';
+    background-color: #e8e7ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.example-2{
+    background: url(images/02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.example-3{
+    background: url(images/030.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: rgb(0, 179, 255);
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 3px;
+}
+span{
+    font-family: 'Dancing Script', cursive;
+    color: aqua;
+    font-size: 90px;
+    font-weight: 700;
+    position: relative;
+    animation: moveit 2s linear 1s infinite alternate-reverse;
+
+}
+@keyframes moveit {
+    from {left: 0px;}
+    to {left: 20%;}
+  }
